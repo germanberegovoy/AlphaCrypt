@@ -1,0 +1,57 @@
+#iarea {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	border: 0px;
+	resize: none;
+	outline: none;
+	top: 110px;
+	position: fixed;
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/ed/3a/22/ed3a2202e319e72b7f419b87bdcf3a0c.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 450px;
+	background-color: #d0d6e0;
+}
+
+::-webkit-input-placeholder { /* для webkit браузеров */
+	color: rgb(244, 72, 66);
+}
+::-moz-placeholder { /* для браузеров mozilla */
+	color: rgb(244, 72, 66);
+}
+
+button {
+	font-weight: bold;
+	height: 25px;
+	width: auto;
+	border-style: none;
+	outline: none;
+	background-color: #d0d6e0;
+}
+
+button:hover {
+	background-color: rgb(244, 72, 66);
+}
+
+button:active {
+	color: white;
+	border-color: green;
+}
+
+h1 {
+	cursor: default;
+	font-family: Tahoma;
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	background-color: rgb(244, 72, 66);
+	margin: 0;
+	padding: 10px;
+}
+body{margin: 0;}
+
+a {text-decoration: none;}
+div {
+	text-align: center;
+}
